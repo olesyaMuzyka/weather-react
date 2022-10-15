@@ -1,14 +1,23 @@
 import React from "react";
 import "./App.css";
-import Weather from "./Weather";
+import CurrentWeather from "./CurrentWeather";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello Olesya.</h1>
-        <Weather city="Dubai" />
-      </header>
+      <div className="container">
+        <CurrentWeather defaultCity="Tokyo" />
+        <footer>
+          <a
+            href="https://github.com/olesyaMuzyka/weather-react"
+            target="blank"
+            rel="noreferrer"
+          >
+            Open-sourse coded
+          </a>
+          <strong> by Olesya Muzyka</strong>
+        </footer>
+      </div>
     </div>
   );
 }

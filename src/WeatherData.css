@@ -1,0 +1,21 @@
+.WeatherData .todayWeather {
+  padding-bottom: 30px;
+  color: whitesmoke;
+}
+.WeatherData .humidity-element,
+.wind-element {
+  color: black;
+
+  font-weight: bold;
+}
+.WeatherData .currentTemp {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+.WeatherData h4 {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+}
