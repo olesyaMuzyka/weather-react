@@ -13,7 +13,7 @@ function App() {
             target="blank"
             rel="noreferrer"
           >
-            Open-sourse coded
+            Open-source coded
           </a>
           <strong> by Olesya Muzyka</strong>
         </footer>
