@@ -8,3 +8,13 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .CurrentWeather {
+    font-size: 15px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }
+}
