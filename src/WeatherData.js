@@ -14,18 +14,18 @@ export default function WeatherData(props) {
         </div>
         <div className="text-capitalize mt-3">{props.data.description}</div>
         <div class="container">
-          <div class="row row-cols-auto mt-3">
-            <div class="col">
+          <div class="row mt-3">
+            <div class="col-12 col-sm-3 ">
               <span className="weatherIcon">
                 <WeatherIcon code={props.data.icon} />
               </span>
             </div>
-            <div class="col mt-3">
+            <div class="col-12 col-sm-3 mt-3">
               <span className="currentTemp">
                 <CurrentTemp celsius={props.data.temperature} />
               </span>
             </div>
-            <div class="col mt-3">
+            <div class="col-12 col-sm-3 mt-3">
               <span className="humidity-element">
                 Humidity:{" "}
                 <span className="humidity">
@@ -34,7 +34,7 @@ export default function WeatherData(props) {
                 %
               </span>
             </div>
-            <div class="col mt-3">
+            <div class="col-12 col-sm-3 mt-3">
               <span className="wind-element">
                 Wind:{" "}
                 <span className="wind">{Math.round(props.data.wind)}</span> km/h
