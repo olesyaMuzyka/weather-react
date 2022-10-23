@@ -1,17 +1,17 @@
 .WeatherData .todayWeather {
   padding-bottom: 30px;
-  color: whitesmoke;
+  color: rgb(21, 35, 226);
 }
 .WeatherData .humidity-element,
 .wind-element {
-  color: whitesmoke;
+  color: rgb(21, 35, 226);
 
   font-weight: bold;
 }
 .WeatherData .currentTemp {
   font-size: large;
   font-weight: bold;
-  color: whitesmoke;
+  color: rgb(21, 35, 226);
 }
 .WeatherData h4 {
   text-transform: uppercase;

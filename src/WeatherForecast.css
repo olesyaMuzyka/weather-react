@@ -1,0 +1,12 @@
+.WeatherForecast {
+  color: whitesmoke;
+  text-align: center;
+}
+.WeatherForecast .ForecastDay {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(36, 118, 206);
+}
+.WeatherForecast .TemperatureMax {
+  font-weight: bold;
+}
